@@ -1,0 +1,612 @@
+
+@media(max-width:1500px){
+
+.header__content-right::before{
+content: none;
+}
+
+.header__content-right::after{
+content: none;
+}
+
+.header{
+background: none;
+}
+
+.header__content-left{
+max-width: 50%;
+gap: 15px;
+}
+
+
+.header__content-right{
+max-width: 50%;
+}
+
+.header>.container{
+padding: 0 25px;
+}
+
+.login{
+margin-right: 70px;
+}
+
+.header__btns{
+justify-content: center;
+align-items: center;
+}
+
+.main>.container{
+    padding: 0 25px;
+    }
+
+
+
+
+}
+
+@media(max-width:1320px){
+.activity__minicard{
+max-width: 25%;
+}
+
+.doctor__bigcards{
+flex-direction: column;
+justify-content: center;
+align-items: center;
+row-gap: 30px;
+}
+
+.doctor__cards{
+padding: 80px 0 0;
+max-width: 70%;
+}
+
+.advice, .our, .prob{
+text-align: center;
+}
+
+.advices{
+margin-top: 100px;
+text-align: left;
+}
+
+.user__cards{
+padding-bottom: 0;
+}
+
+
+}
+
+@media(max-width:1200px){
+
+
+.header__content{
+flex-direction: column;
+justify-content: center;
+align-items: center;
+row-gap: 50px;
+}
+
+.header__content-right{
+justify-content: center;
+align-items: center;
+display: flex;
+}
+
+.header__content-left{
+text-align: center;
+}
+
+.header__content::before{
+top: 51%;
+left: 20%;
+}
+
+.header__content::after{
+top: 74%;
+left: 22%;
+}
+
+.activity__content{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 580px;
+}
+
+.activity__cards{
+flex-direction: column;
+justify-content: center;
+align-items: center;
+row-gap: 30px;
+}
+
+.activity__minicard{
+max-width: 40%;
+}
+
+.text{
+text-align: center;
+}
+
+.cardtext{
+text-align: left;
+}
+
+.txt{
+text-align: left;
+}
+
+.new{
+margin-top: 90px;
+}
+
+.we{
+text-align: left;
+}
+
+.advices{
+text-align: center;
+}
+
+.pricee{
+text-align: center;
+}
+
+.price__cards{
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.person{
+object-fit: contain;
+}
+
+.user__cards{
+padding-top: 0;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.footer__content{
+flex-wrap: wrap;
+gap: 100px;
+justify-content: center;
+align-items: center;
+}
+
+
+
+
+}
+
+
+@media(max-width:1000px){
+
+.header__content::before{
+top: 51%;
+left: 14%;
+}
+
+.header__content::after{
+top: 74%;
+left: 16%;
+}
+
+.activity__content{
+margin-top: 600px;
+}
+
+.txt{
+text-align: center;
+}
+
+.medicine__content{
+flex-direction: column;
+justify-content: center;
+align-items: center;
+row-gap: 30px;
+padding: 0 0 80px;
+}
+
+.medicine__content-left{
+text-align: center;
+}
+
+.learn{
+justify-content: center;
+align-items: center;
+}
+
+.new{
+    margin-top: 90px;
+    }
+
+}
+
+
+@media(max-width:875px){
+.nav__content{
+flex-direction: column;
+row-gap: 20px;
+}
+
+.nav__login{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+row-gap: 15px;
+}
+
+.login{
+margin-right: 0;
+}
+
+.header__content::before{
+left: 9%;
+}
+
+.header__content::after{
+left: 12%;
+}
+
+
+.header__content-right{
+max-width: 0;
+}
+
+.header__btns{
+flex-direction: column;
+}
+
+.activity__content{
+margin-top: 875px;
+}
+
+.new{
+    margin-top: 90px;
+    }
+
+    .footer__list{
+    row-gap: 8px;
+    }
+
+    .button{
+    margin: 80px 0 100px;
+    }
+
+
+}
+
+
+@media(max-width:768px){
+
+.email{
+padding-right: 180px;
+}
+
+.header__content{
+padding-top: 50px;
+}
+
+
+.header__content-title{
+font-size: 45px;
+line-height: 57px;
+}
+
+.header__content::before{
+left: 0;
+width: 200px;
+height: 200px;
+}
+
+.header__content::after{
+left: 0;
+}
+
+.activity__content{
+    margin-top: 770px;
+    }
+
+    .new{
+        margin-top: 90px;
+        }
+
+.footer__content{
+row-gap: 50px;
+}
+
+.getin{
+max-width: 247px;
+}
+
+.footermini__content{
+flex-direction: column;
+justify-content: center;
+align-items: center;
+row-gap: 10px;
+}
+
+
+
+
+
+}
+
+@media(max-width:576px){
+
+.footermini{
+padding: 15px 0;
+}
+
+.header__content::before{
+display: none;
+}
+
+.subscribe{
+padding: 10px 15px;
+}
+
+.email{
+padding-right: 50px;
+padding: 10px 0;
+padding-left: 20px;
+}
+
+
+.header__content::after{
+display: none;
+}
+
+.header__content-title{
+font-size: 37px;
+line-height: 50px;
+}
+
+.header__content-text{
+font-size: 16px;
+line-height: 26px;
+}
+
+.join{
+padding: 9px 15px;
+}
+
+.headerbtn{
+padding: 9px 24px;
+}
+
+.header__content-left{
+gap: 10px;
+}
+
+.nurse{
+width: 320px;
+height: 400px;
+}
+
+.nav__logo{
+margin-left: 0;
+margin: 0 auto;
+}
+
+.nav__list{
+margin-right: 0;
+}
+
+.header__content-left{
+max-width: 70%;
+}
+
+.activity__content{
+    margin-top: 475px;
+    }
+
+.title{
+font-size: 37px;
+}
+
+.activity__minicard{
+max-width: 50%;
+}
+
+
+.medicine__content-right{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.lab{
+max-width: 80%;
+}
+
+.new{
+    margin-top: 70px;
+    }
+
+.doctor__cards{
+max-width: 50%;
+}
+
+.doctor__card-infos{
+flex-direction: column;
+row-gap: 10px;
+}
+
+.doctor__title{
+flex-direction: column;
+row-gap: 5px;
+}
+
+.num{
+max-width: max-content;
+object-fit: contain;
+}
+
+.doctor__cards{
+max-width: 70%;
+padding-top: 35px;
+}
+
+.footer__content{
+row-gap: 40px;
+}
+
+}
+
+@media(max-width:450px){
+
+.footermini__text{
+text-align: center;
+}
+
+.footermini__content{
+row-gap: 5px;
+}
+
+.footer__content{
+gap: 70px;
+}
+
+.join{
+font-size: 12px;
+line-height: 16px;
+}
+
+.nav__list-link{
+font-size: 12px;
+}
+
+.nav__content{
+row-gap: 5px;
+}
+
+.nav__login{
+row-gap: 9px;
+}
+
+.header__content{
+padding-top: 0;
+}
+
+.headerbtn{
+font-size: 12px;
+line-height: 17px;
+}
+
+.header__content-title{
+font-size: 30px;
+line-height: 35px;
+}
+
+.header__content-text{
+font-size: 14px;
+line-height: 23px;
+}
+
+.nurse{
+max-width: 270px;
+height: 365px;
+}
+
+.header__content{
+margin: 0 auto;
+}
+
+.activity__content{
+margin-top: 300px;
+}
+
+.title{
+font-size: 25px;
+line-height: 35px;
+}
+
+.activity__minicard{
+padding: 25px;
+max-width: 70%;
+}
+
+.activity__cards{
+margin-top: 45px;
+}
+
+.tit{
+padding: 10px 0 10px;
+}
+
+.learn{
+margin-top: 10px;
+}
+
+.activity__cards{
+margin-bottom: 80px;
+}
+
+.new{
+    margin-top: 60px;
+    }
+
+.doctor__cards{
+max-width: 85%;
+}
+
+.price__minicard{
+max-width: 70%;
+}
+
+.greens{
+object-fit: contain;
+}
+
+.free{
+padding: 20px 0;
+}
+
+.trybtn{
+padding: 9px 47px;
+}
+
+.blueheart{
+width: 80px;
+height: 80px;
+}
+
+.minicard__price{
+padding-top: 10px;
+font-size: 30px;
+}
+
+.news{
+display: none;
+}
+
+.price__minicard{
+padding: 23px 25px;
+margin-top: 40px;
+}
+
+.slate{
+text-align: justify;
+}
+
+.price__cards{
+margin-bottom: 0;
+}
+
+.footer__list{
+line-height: 16px;
+}
+
+.footer__list-link{
+font-size: 12px;
+line-height: 16px;
+}
+
+}
